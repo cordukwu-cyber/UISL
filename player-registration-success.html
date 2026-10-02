@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<meta name="theme-color"
+content="#06172f">
+
+<title>UISL Registration Submitted</title>
+
+<link rel="icon"
+type="image/jpeg"
+href="ugwechi-logo.jpg">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+rel="stylesheet">
+
+<style>
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+font-family:"DM Sans",Arial,sans-serif;
+background:#06172f;
+color:#172235;
+padding:25px;
+}
+
+.card{
+background:#fff;
+max-width:650px;
+width:100%;
+padding:50px 35px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 25px 70px rgba(0,0,0,.25);
+}
+
+.logo{
+width:75px;
+height:75px;
+object-fit:cover;
+border-radius:50%;
+margin-bottom:20px;
+}
+
+.eyebrow{
+color:#a67b17;
+text-transform:uppercase;
+letter-spacing:2px;
+font-size:11px;
+font-weight:800;
+}
+
+h1{
+font-family:"Playfair Display",serif;
+font-size:42px;
+color:#06172f;
+margin:12px 0;
+}
+
+p{
+color:#657085;
+line-height:1.7;
+}
+
+.success{
+margin:28px 0;
+padding:20px;
+background:#f7f3e8;
+border:1px solid #eadcae;
+border-radius:8px;
+}
+
+.success strong{
+display:block;
+color:#06172f;
+font-size:14px;
+margin-bottom:7px;
+}
+
+.success span{
+font-size:20px;
+font-weight:800;
+color:#a67b17;
+letter-spacing:1px;
+}
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:12px;
+flex-wrap:wrap;
+margin-top:25px;
+}
+
+.button{
+display:inline-block;
+padding:13px 20px;
+border-radius:5px;
+font-weight:700;
+font-size:14px;
+}
+
+.primary{
+background:#d7ad45;
+color:#071427;
+}
+
+.secondary{
+border:1px solid #06172f;
+color:#06172f;
+}
+
+.small{
+font-size:12px;
+margin-top:25px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<img
+class="logo"
+src="ugwechi-logo.jpg"
+alt="Ugwechi International Services Limited">
+
+<div class="eyebrow">
+UISL Football Management
+</div>
+
+<h1>
+Registration Received
+</h1>
+
+<p>
+Thank you for registering with Ugwechi International Services Limited.
+Your football registration has been submitted successfully.
+</p>
+
+<div class="success">
+
+<strong>
+Your UISL Registration ID
+</strong>
+
+<span id="registrationId">
+UISL-FB-PENDING
+</span>
+
+</div>
+
+<p>
+Please keep your registration reference. The UISL football management
+team will review the submitted information and contact you regarding
+the next stage of your player profile.
+</p>
+
+<div class="buttons">
+
+<a
+class="button primary"
+href="football-register.html">
+Register Another Player
+</a>
+
+<a
+class="button secondary"
+href="index.html">
+Return to Website
+</a>
+
+</div>
+
+<p class="small">
+Ugwechi International Services Limited<br>
+Football & Sports Agency
+</p>
+
+</div>
+
+
+<script>
+
+/*
+The submitted form contains the registration ID.
+Netlify's standard redirect does not automatically expose
+POST fields on this page, so the confirmation page displays
+a general confirmation rather than claiming a permanent ID.
+*/
+
+</script>
+
+</body>
+
+</html>
